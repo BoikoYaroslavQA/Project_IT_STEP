@@ -6,7 +6,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.webdriver.support import expected_conditions as EC
 # from pages.locators import BasePageLocators
-from ..settings import sets
+from settings import sets
 import time
 
 
