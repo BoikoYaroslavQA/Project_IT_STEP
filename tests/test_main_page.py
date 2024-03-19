@@ -74,3 +74,12 @@ class TestMainPage:
         page = MainPage(browser, self.link_to_cabinet)
         page.subscribe_action(self.email_for_subscribe)
         page.is_alert_success_after_subscribe()
+
+
+
+
+
+
+
+
+
