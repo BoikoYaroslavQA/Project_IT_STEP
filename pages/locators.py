@@ -22,7 +22,7 @@ class BasePageLocators:
     HITY = (By.XPATH, "//span[text()='Хиты']")
     SKIDKI = (By.XPATH, "//span[text()='Скидки']")
     NOVINKI = (By.XPATH, "//span[text()='Новинки']")
-    HEAD_CAT_SAMSUNG = (By.XPATH, "//div[@class='search-by-level-1' and text()='Samsung']")
+    HEAD_CAT_SAMSUNG = (By.XPATH, "//div[contains(@class, 'search-by-level-1')][contains(., 'Samsung')]")
 
     SUBSCRIBE = (By.XPATH, "//button[text() = 'Подписаться!']")
     INPUT_SUBSCRIBE = (By.XPATH, "//input[@name = 'submail']")
