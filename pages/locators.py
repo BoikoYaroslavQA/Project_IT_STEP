@@ -28,7 +28,7 @@ class BasePageLocators:
     SUBSCRIBE = (By.XPATH, "//button[text() = 'Подписаться!']")
     INPUT_SUBSCRIBE = (By.XPATH, "//input[@name = 'submail']")
     LOGO_FOOTER = (By.XPATH, "//img[@src = 'images/logo-footer.png']")
-
+    ALLERT_SUCCESS =(By.XPATH, "//div[@class='alert alert-success' and @id='alert-success']")
 
 class MainPageLocators:
     SCREEN_SLIDER = (By.XPATH, "//div[@class = 'screen_slider']")
