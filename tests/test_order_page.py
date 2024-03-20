@@ -1,8 +1,8 @@
 import pytest
-from ..pages.base_page import BasePage
-from ..pages.order_page import OrderPage
-from ..pages.signup_login_page import SignupLoginPage
-from ..settings import sets
+from pages.base_page import BasePage
+from pages.order_page import OrderPage
+from pages.signup_login_page import SignupLoginPage
+from settings import sets
 import random
 
 
