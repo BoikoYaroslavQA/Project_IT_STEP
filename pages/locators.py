@@ -6,7 +6,7 @@ class BasePageLocators:
     DETAILS = (By.XPATH, "//a[text() = 'Детали сотрудничества']")
     FEEDBACK = (By.XPATH, "//a[text()='Обратная связь']")
     DELIVERY = (By.XPATH, "//a[text()='Доставка']")
-    WARRANTY = (By.XPATH, "Гарантия")
+    WARRANTY = (By.XPATH, "//a[@href='singlepage/warranty' and text()='Гарантия']")
     PHONE = (By.XPATH, "//div[text()='+38 098 911 95 22']")
     CURRENCY = (By.XPATH, '//select[@id="currency"]')
 
