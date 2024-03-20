@@ -1,4 +1,4 @@
-from ..pages import base_page, locators
+from pages import base_page, locators
 import inspect
 import re
 
