@@ -23,6 +23,7 @@ class BasePageLocators:
     SKIDKI = (By.XPATH, "//span[text()='Скидки']")
     NOVINKI = (By.XPATH, "//span[text()='Новинки']")
     HEAD_CAT_SAMSUNG = (By.XPATH, "//div[contains(@class, 'search-by-level-1')][contains(., 'Samsung')]")
+    SUBCATEGORY_SAMSUNG_HEADER = (By.XPATH, "//a[@href='BrandModel/Samsung-J701' and text()='Samsung J701']")
 
     SUBSCRIBE = (By.XPATH, "//button[text() = 'Подписаться!']")
     INPUT_SUBSCRIBE = (By.XPATH, "//input[@name = 'submail']")
