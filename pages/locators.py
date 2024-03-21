@@ -50,3 +50,46 @@ class MainPageLocators:
     SECTION_HITS = (By.XPATH, "//div[@class = 'best_sellers']//div[@class = 'bestsellers_panel panel active']")
     BUTTON_PREV_TREND = (By.XPATH, "//div[@class = 'trends']//div[@class = 'trends_prev trends_nav slick-arrow']/i")
     BUTTON_NEXT_TREND = (By.XPATH, "//div[@class = 'trends']//div[@class = 'trends_next trends_nav slick-arrow']/i")
+
+class SignupLoginPageLocators:
+    GO_TO_SIGNUP = (By.XPATH, "//a[@href = 'user/signup']")
+    H1_SIGNUP = (By.XPATH, "//h1[text() = 'Регистрация']")
+    INPUT_EMAIL = (By.XPATH, "//input[@name = 'email']")
+    INPUT_PASSWORD = (By.XPATH, "//input[@name = 'password']")
+    BUTTON_SIGNUP = (By.XPATH, "//button[text() = 'Зарегистрироваться']")
+    H1_VHOD = (By.XPATH, "//h1[text() = 'Вход']")
+    BUTTON_LOGIN = (By.XPATH, "//button[text() = 'Войти']")
+
+
+class OrderPageLocators:
+    FIRST_PRODUCT = (By.XPATH, "//div[@class = 'new_arrivals']//div[@class = 'slick-list draggable']/div/div[1]/div[1]")
+    BUTTON_ADD_FIRST_PRODUCT = (By.XPATH, "//div[@class = 'new_arrivals']//div[@class = 'slick-list draggable']/div/div[1]/div[1]//button[text() = 'В корзину!']")
+    PRICE_FIRST_PRODUCT = (By.XPATH, "//div[@class = 'new_arrivals']//div[@class = 'slick-list draggable']/div/div[1]/div[1]//div[@class = 'product_price']")
+    BTN_CONTINUE_SHOP_POPUP = (By.XPATH, "//button[text() = 'Продолжить покупки']")
+    SECOND_PRODUCT_INPUT_NUMBER_QTY = (By.XPATH, "//div[@class = 'shop_content']//div[@id = 'product']/div[1]//input[@type = 'number']")
+    PRICE_SECOND_PRODUCT = (By.XPATH, "//div[@class = 'shop_content']//div[@id = 'product']/div[1]//div[@class = 'product_price']")
+    BUTTON_ADD_SECOND_PRODUCT = (By.XPATH, "//div[@class = 'shop_content']//div[@id = 'product']/div[1]//button")
+    TOTAL_PRICE = (By.XPATH, "//tr[@class = 'cart-cena']/td[2]")
+    QTY = (By.XPATH, "//tr[@class = 'cart-itogo']/td[2]")
+    CHECKOUT_BTN_POPUP = (By.XPATH, "//a[@href = 'cart/view']")
+    CART_REG_FORM = (By.XPATH, "//div[@class = 'cart-reg']")
+    INPUT_EMAIL = (By.XPATH, "//input[@name = 'email']")
+    INPUT_PASSWORD = (By.XPATH, "//input[@name = 'password']")
+    INPUT_NOTE = (By.XPATH, "//textarea[@name= 'note']")
+    CHECKOUT_BUTTON = (By.XPATH, "//button[@class = 'btn green']")
+
+
+class CabinetPageLocators:
+    pass
+
+
+class CategoryPageLocators:
+    pass
+
+
+class SearchPageLocators:
+    pass
+
+
+class ProductPageLocators:
+    pass
