@@ -56,6 +56,10 @@ class SignupLoginPage(base_page.BasePage):
             "The element currency is not present or intractable"
         print(f"{inspect.currentframe().f_code.co_name} - Ok")
 
+    def is_alert_success_after_subscribe(self):
+        assert self.is_element_appears_after_while(*locators.BasePageLocators.ALERT_SUCCESS,timeout=5), \
+                "The element is not present"
+        print(f"{inspect.currentframe().f_code.co_name} - Ok")
 
 
 

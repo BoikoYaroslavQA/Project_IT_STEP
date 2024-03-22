@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class BasePageLocators:
+    LOGOUT = (By.XPATH, "//div[@class='top_bar_user']//a[@href = 'user/logout']")
     LOGIN_SIGNUP = (By.XPATH, "//div[@class='top_bar_user']/a[@href='user/login']")
     DETAILS = (By.XPATH, "//a[text() = 'Детали сотрудничества']")
     FEEDBACK = (By.XPATH, "//a[text()='Обратная связь']")
